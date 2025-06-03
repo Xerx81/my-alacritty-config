@@ -9,7 +9,7 @@ size = 12.0
 bindings = [
     { key = "N", mods = "Control|Shift", action = "SpawnNewInstance" },
     { key = "W", mods = "Control|Shift", action = "Quit"},
-    { key = "J", mods = "Control", action = "ScrollPageDown"},
-    { key = "K", mods = "Control", action = "ScrollPageUp"},
+    { key = "J", mods = "Control|Shift", action = "ScrollPageDown"},
+    { key = "K", mods = "Control|Shift", action = "ScrollPageUp"},
     { key = "V", mods = "Control", action = "ToggleViMode"},
 ]
